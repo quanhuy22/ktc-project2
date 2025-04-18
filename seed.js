@@ -90,21 +90,18 @@ async function seedData() {
     // 7. Vé tháng (test đúng ràng buộc 2 xe)
     await db.collection("vethang").insertMany([
       {
-        mave:"1",
         maSV: "SV001",
         bienSoXe: "19S1-27127",
         ngayDangKy: new Date("2025-04-01"),
         donGia: 100000
       },
       {
-        mave:"2",
         maSV: "SV001",
         bienSoXe: "19S1-32621",
         ngayDangKy: new Date("2025-04-01"),
         donGia: 100000
       },
       {
-        mave:"3",
         maSV: "SV001",
         bienSoXe: "30B-67891",
         ngayDangKy: new Date("2025-04-01"),
